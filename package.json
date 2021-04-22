@@ -4,7 +4,7 @@
   "description": "![Header/intro section for the Huddle landing page with curved sections](./design/desktop-preview.jpg)",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "compile:sass": "sass sass/main.scss css/style.css -w"
   },
   "keywords": [],
   "author": "DiegoFigueroa98",
@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/DiegoFigueroa98/frontend-mentor-huddle/issues"
   },
-  "homepage": "https://github.com/DiegoFigueroa98/frontend-mentor-huddle#readme"
+  "homepage": "https://github.com/DiegoFigueroa98/frontend-mentor-huddle#readme",
+  "dependencies": {
+    "sass": "^1.32.11"
+  }
 }
